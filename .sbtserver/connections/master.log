@@ -1,0 +1,7 @@
+New log file opened at Fri Feb 10 19:32:14 CET 2017 by 9322@orkun-pc
+Taking next connection to: 41778
+New client attempting to connect on port: 52150-41778
+  Address = /127.0.1.1:41778
+This client on port 52150 has uuid 857d0aac-d5e3-47d6-8c6f-a1368cfa2028 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-857d0aac-d5e3-47d6-8c6f-a1368cfa2028
+Taking next connection to: 41778
