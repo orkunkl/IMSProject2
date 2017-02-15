@@ -1,7 +1,58 @@
-New log file opened at Fri Feb 10 19:32:14 CET 2017 by 9322@orkun-pc
-Taking next connection to: 41778
-New client attempting to connect on port: 52150-41778
-  Address = /127.0.1.1:41778
-This client on port 52150 has uuid 857d0aac-d5e3-47d6-8c6f-a1368cfa2028 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-857d0aac-d5e3-47d6-8c6f-a1368cfa2028
-Taking next connection to: 41778
+New log file opened at Wed Feb 15 15:46:12 CET 2017 by 7287@orkun-pc
+Taking next connection to: 33144
+New client attempting to connect on port: 59914-33144
+  Address = /127.0.1.1:33144
+This client on port 59914 has uuid 029f4dd4-37c6-4b6a-b22c-9c9934288082 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-029f4dd4-37c6-4b6a-b22c-9c9934288082
+Taking next connection to: 33144
+New client attempting to connect on port: 59916-33144
+  Address = /127.0.1.1:33144
+Handshake exception on socket: 59916
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 33144
+New client attempting to connect on port: 59918-33144
+  Address = /127.0.1.1:33144
+This client on port 59918 has uuid 8544a55e-c08b-482b-a2cf-18c388e58beb configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-029f4dd4-37c6-4b6a-b22c-9c9934288082, activator-8544a55e-c08b-482b-a2cf-18c388e58beb
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 33144
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 7287@orkun-pc logs at Wed Feb 15 16:16:14 CET 2017, goodbye.
