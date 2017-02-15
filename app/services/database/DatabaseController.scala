@@ -16,5 +16,11 @@ import play.api.libs.concurrent.Execution.Implicits.defaultContext
 class DatabaseController @Inject()(protected val dbConfigProvider: DatabaseConfigProvider, val system: ActorSystem) extends  HasDatabaseConfigProvider[JdbcProfile]
                                                                                                                     with DatabaseTrait with SlickDatabaseMapping {
 
-  def insertRoom(room: Room) : Future[Unit] = db.run(RoomTable += room).map(_ => ())
+  /**
+    * Room related methods
+    * */
+
+  override def insertRoom(room: Room) : Future[Unit] = db.run(RoomTable += room).map(_ => ())
+  override def getRoom(id: Int) : Future[Option[Room]] = db.run(RoomTable.filter(_.roomID === id).result.headOption)
+
 }
